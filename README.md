@@ -76,5 +76,3 @@ Where:
 - \( r \): risk-free rate  
 - \( \sigma \): volatility  
 - \( N() \): cumulative standard normal distribution  
-
---                 |
