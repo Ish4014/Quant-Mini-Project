@@ -4,7 +4,7 @@ This project demonstrates core techniques in quantitative finance by:
 1. Simulating stock-price paths via Geometric Brownian Motion (GBM)  
 2. Pricing European options analytically with Black-Scholes–Merton (BSM)  
 3. Estimating option values via Monte Carlo simulation  
-4. Visualizing results and saving key plots for sharing  
+4. Visualizing results   
 
 ---
 
@@ -32,18 +32,8 @@ We’ll generate multiple stock-price trajectories, compute option prices both a
 | GBM simulation               | numpy                            |
 | Analytical option pricing    | scipy.stats.norm, math           |
 | Monte Carlo pricing          | numpy.random.normal()            |
-| Plotting & saving figures    | matplotlib.pyplot                |
+| Plotting                     | matplotlib.pyplot                |
 | Development environment      | Anaconda → Jupyter Notebook      |
-
----
-
-## Key Features
-
-- GBM paths implemented from scratch  
-- Black-Scholes pricing function  
-- Monte Carlo estimator for options  
-- Charts saved to `graphs/`  
-- Clean, modular code and Markdown explanations  
 
 ---
 
